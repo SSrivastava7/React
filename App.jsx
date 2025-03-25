@@ -1,3 +1,11 @@
+import React, {
+  useState,
+  useMemo,
+  useRef,
+  useEffect,
+  useCallback,
+  Suspense,
+} from "react";
 export default function App() {
   const user = { name: "", email: "", pwd: "" };
   const [inputData, setInputData] = useState(user);
